@@ -9,4 +9,14 @@ logs
 # Sources, tests and builder files
 src
 .babelrc
+.editorconfig
+.eslintignore
+.eslintrc.js
 .gitignore
+.vscode/
+jest.config.js
+jest.setup.js
+jsconfig.json
+
+package-lock.json
+yarn.lock
