@@ -1,0 +1,11 @@
+{
+	"recommendations": [
+    "redhat.vscode-yaml",
+    "asvetliakov.run-current-test",
+    "streetsidesoftware.code-spell-checker",
+    "mikestead.dotenv",
+    "dbaeumer.vscode-eslint",
+    "jeremyrajan.webpack",
+    "andys8.jest-snippets"
+  ]
+}

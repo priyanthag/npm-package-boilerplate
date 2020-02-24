@@ -1,0 +1,6 @@
+# Dependency directory
+node_modules
+logs
+bin
+yarn-error.log
+.env*
