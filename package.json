@@ -23,8 +23,10 @@
     "build": "cross-env NODE_ENV=production npm run clean && babel src  --ignore 'src/**/*.test.js','src/**/__mocks__' --out-dir bin",
     "build:dev": "cross-env NODE_ENV=development npm run clean && babel src  --ignore 'src/**/*.test.js','src/**/__mocks__' --out-dir bin",
     "test": "cross-env NODE_ENV=test TZ=Etc/UTC jest",
-    "test:single": "cross-env NODE_ENV=test TZ=Etc/UTC jest",
-    "test:impacted": "cross-env NODE_ENV=test TZ=Etc/UTC jest --onlyChanged"
+    "test:single": "npm run test",
+    "test:impacted": "npm run test -- --onlyChanged",
+    "test:coverage": "npm run test -- --coverage",
+    "test:coverage:view": "http-server ./coverage/lcov-report/"
   },
   "pre-commit": [
     "check",
@@ -54,6 +56,7 @@
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
+    "http-server": "^0.12.1",
     "jest": "^25.1.0",
     "pre-commit": "^1.2.2"
   }

@@ -4,3 +4,4 @@ logs
 bin
 yarn-error.log
 .env*
+coverage
