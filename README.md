@@ -1,30 +1,30 @@
-# Title
+# NPM Package Boilerplate
 
 Boilerplate to create npm packages.
 
-# Publish to NPM
+## Publish to NPM
 
-## Build the Package
+### Build the Package
 
     npm run build
 
-## Publish the Package
+### Publish the Package
 
     npm publish
 
-# Work locally
+## Work locally
 
 Link the package locally
 
     yarn add ../<this folder>
 
-# Run unit tests
+## Run unit tests
 
-## All the unit tests with coverage
+### All the unit tests with coverage
 
     npm run test
 
-## Run single unit test
+### Run single unit test
 
 this can be done using command like as follows
 
