@@ -1,11 +1,15 @@
 {
-	"recommendations": [
+  "recommendations": [
     "redhat.vscode-yaml",
     "asvetliakov.run-current-test",
+    "waderyan.gitblame",
+    "msjsdiag.debugger-for-chrome",
     "streetsidesoftware.code-spell-checker",
     "mikestead.dotenv",
     "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
     "jeremyrajan.webpack",
-    "andys8.jest-snippets"
+    "andys8.jest-snippets",
+    "christian-kohler.path-intellisense"
   ]
 }

@@ -1,7 +1,7 @@
 import logger from './lib/logger'
 
 export default class Index {
-  constructor () {
+  constructor() {
     this.logger = logger
     console.log('Test')
   }

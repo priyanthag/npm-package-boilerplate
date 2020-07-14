@@ -1,22 +1,26 @@
 # IDE & OS specific
 .DS_Store
 .idea
+.vscode
 
 # Dependencies
-node_modules
 logs
+node_modules
+reporting
 
 # Sources, tests and builder files
 src
-.babelrc
 .editorconfig
 .eslintignore
 .eslintrc.js
 .gitignore
-.vscode/
+.npmignore
+.npmrc
+.prettierrc.js
+.prettierrc.js.for.vue
+.watchmanconfig
+babel.config.js
 jest.config.js
+jest.config.single.js
 jest.setup.js
 jsconfig.json
-
-package-lock.json
-yarn.lock

@@ -6,7 +6,4 @@ const data2 = {
   test: 1234
 }
 
-export {
-  data1,
-  data2
-}
+export { data1, data2 }
