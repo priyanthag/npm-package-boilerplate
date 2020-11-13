@@ -33,10 +33,7 @@
     "test:impacted"
   ],
   "dependencies": {
-    "aws-sdk": "^2.418.0",
-    "lodash-es": "^4.17.15",
-    "winston": "^3.2.1",
-    "winston-daily-rotate-file": "^3.8.0"
+    "lodash": "^4.17.20"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
