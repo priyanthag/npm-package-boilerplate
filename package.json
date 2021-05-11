@@ -33,7 +33,7 @@
     "test:impacted"
   ],
   "dependencies": {
-    "lodash": "^4.17.20"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.1",
